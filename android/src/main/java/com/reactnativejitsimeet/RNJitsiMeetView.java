@@ -90,6 +90,7 @@ public class RNJitsiMeetView extends BaseReactView<JitsiMeetViewListener>
     @Override
     public void dispose() {
         RNOngoingConferenceTracker.getInstance().removeListener(this);
+        setProps(new Bundle());
         super.dispose();
     }
 

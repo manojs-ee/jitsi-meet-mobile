@@ -2,6 +2,10 @@
   "name": "react-native-jitsi-meet",
   "description": "Jitsi Meet SDK wrapper for React Native.",
   "version": "1.0.0",
+  "author": {
+    "name": "Manoj",
+    "email": "manoj@everest.engineering"
+  },
   "contributors": [],
   "homepage": "https://github.com/manojsurimani/jitsi-meet-mobile",
   "bugs": {

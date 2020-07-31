@@ -45,6 +45,7 @@ RCT_EXPORT_METHOD(call:(NSString *)urlString userInfo:(NSDictionary *)userInfo)
             builder.room = urlString;
             builder.userInfo = _userInfo;
             builder.subject = @" ";
+            [builder setFeatureFlag:@"pip.enabled" withBoolean:NO];
             [builder setFeatureFlag:@"add-people.enabled" withBoolean:NO];
             [builder setFeatureFlag:@"ios.recording.enabled" withBoolean:NO];
             [builder setFeatureFlag:@"live-streaming.enabled" withBoolean:NO];
